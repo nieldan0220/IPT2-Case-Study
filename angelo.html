@@ -19,9 +19,8 @@
       body {
         font-family: "Roboto", sans-serif;
         display: flex;
-        background: rgb(36,0,0);
-        background: rgb(36,0,0);
-        background: linear-gradient(90deg, rgba(36,0,0,0.6545211834733893) 0%, rgba(0,0,0,0.9458377100840336) 0%, rgba(33,30,57,1) 88%);
+        background: rgb(226,12,12);
+background: linear-gradient(90deg, rgba(226,12,12,0.6545211834733893) 0%, rgba(194,20,177,0.9458377100840336) 0%, rgba(201,5,5,1) 95%);
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -48,6 +47,7 @@
         display: flex;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 50px;
+        height: 600px;
         max-width: 1200px;
         width: 800px;
         justify-content: center;
@@ -60,13 +60,13 @@
 
       .portfolio-card {
        background-color: whitesmoke;
-
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         justify-content: center;
         align-items: center;
+        width: 400px;
       }
 
       .portfolio-card:hover {
@@ -168,41 +168,20 @@ margin-bottom: 90px;
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
     </div>
-    <h1>IPT2 Portfolio</h1>
 
     <div class="portfolio-container">
-      <div class="portfolio-card" style="width:700px; height: 400px;">
-        <img src="/Users/jamesdanielparas/Downloads/d61389b1-0ffe-4c35-8f3e-4a347c481394.jpeg" alt="James Daniel Paras" />
-        <div class="portfolio-card-body">
-          <h3>James Paras</h3>
-          <p style="color: black;">
-            TSM 3A
-          </p>
-          <a href="james.html">View Profile</a>
-        </div>
-      </div>
-
-      <div class="portfolio-card"style="width:750px; height: 400px;">
-        <img src="/Users/jamesdanielparas/Downloads/1559d2f8-7f22-4a37-8d8c-6cfe171ed64d.jpeg" alt="Angelo Santos" />
-        <div class="portfolio-card-body">
+      <div class="portfolio-card" style="width:350px; height: 575px; margin-bottom: 5px;">
+        <img style="height: 300px;" src="/Users/jamesdanielparas/Downloads/1559d2f8-7f22-4a37-8d8c-6cfe171ed64d.jpeg" alt="James Daniel Paras" />
+        <div style="border-radius: 20px; border: 10px solid rgb(151, 151, 153);" class="portfolio-card-body">
           <h3>Angelo Santos</h3>
           <p style="color: black;">
-            TSM 3A
+         <p>I am kind person</p>
+         <p>I used to play online games on pc</p>
+         <p>I love hangingout with friends</p>
           </p>
-          <a href="angelo.html">View Profile</a>
         </div>
       </div>
-
-      <div class="portfolio-card" style="width:700px; height: 400px;">
-        <img src="/Users/jamesdanielparas/Downloads/9139abc6-3829-4ab3-ae02-310c820f6f34.jpeg" alt="James Daniel Paras" />
-        <div class="portfolio-card-body">
-          <h3>Aiki Quizon</h3>
-          <p style="color: black;"  >
-            TSM 3A
-          </p>
-          <a href="#">View Profile</a>
-        </div>
-      </div>
+      
       </div>
     </div>
   </body>
